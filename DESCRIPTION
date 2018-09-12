@@ -1,0 +1,11 @@
+Package: InferenceBEAGSD
+Type: Package
+Title: Inference for Binary Endpoint Adaptive Group-Sequential Designs
+Version: 0.1.0
+Author: Arsenio Nhacolo
+Maintainer: Arsenio Nhacolo <anhacolo@uni-bremen.de>
+Description: This package implents the inference methods proposed in the doctoral thesis intitled 'Bias and precision in early phase adaptive oncology studies and its consequences for confirmatory trials' authored by Arsenio Nhacolo. It includes functions for comparing the performance of various estimators for classical two-stage group-sequential designs with binary endpoint popular in oncology Phase II clinical trials, new inference methods (p-values, and point and interval estimates) proposed for adaptive versions of these designs, and new methods for estimating adjustment factors in order to get an adequately powered Phase III trials when planned based on Phase II trial data.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
